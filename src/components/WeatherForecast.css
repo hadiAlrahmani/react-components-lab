@@ -1,0 +1,47 @@
+
+body {
+    background-color: #1e1e1e;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  section {
+    display: flex;
+    justify-content: center;
+    border: 1px solid white;
+    width: fit-content;
+    margin: auto;
+  }
+  
+  .weather {
+    border-right: 1px solid white;
+    padding: 15px;
+    flex: 1;
+    min-width: 120px;
+    text-align: center;
+  }
+  
+  .weather:last-child {
+    border-right: none;
+  }
+  
+  .weather img {
+    width: 50px;
+    height: 50px;
+    margin: 10px 0;
+  }
+  
+  .weather p {
+    font-size: 0.9rem;
+  }
+  
+  .weather span {
+    font-weight: bold;
+    color: #f0c674;
+  }
